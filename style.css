@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.men-haqimda{
+    background-image: url("https://i.pinimg.com/originals/bd/75/49/bd7549889b25d9187b360655c49df9c6.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.men-haqimda>.container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.hight__text{
+    color: white;
+    text-shadow: 10px 10px 10px blue;
+    text-align: center;
+    margin: 0 auto;
+}
+.min___text{
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-shadow: 10px 10px 10px red;
+}
+.my_logo{
+    width: 500px;
+    margin-top: 100px;
+}
+@media(max-width:900px){
+    .men-haqimda>.container{
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .men-haqimda{
+        overflow-y: scroll;
+    }
+    .my_logo{
+        margin-bottom: 30px;
+    }
+}
